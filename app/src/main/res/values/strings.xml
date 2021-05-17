@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CovidWelness</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="hint_name">Enter UserName</string>
+    <string name="register">register</string>
+    <string name="reason_1">I am not feeling well</string>
+    <string name="reason_2">I am  feeling slightly  better</string>
+    <string name="reason_3">I am  feeling much  better</string>
+    <string name="reason_4">I am good now</string>
+    <string name="how_are_you">How are you feeling today?</string>
+</resources>
