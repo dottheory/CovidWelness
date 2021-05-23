@@ -11,11 +11,11 @@ import io.reactivex.Single
 interface UserDao {
 
     @Query("SELECT * FROM User")
-    fun getAll(): Single<List<User>>
+    suspend fun getAll():List<User>
 
     @Insert
-    fun insertAll(vararg users: User): Completable
+    suspend fun insertAll(vararg users: User)
 
     @Update
-    fun update(vararg users: User)
+    suspend fun update(vararg users: User)
 }
